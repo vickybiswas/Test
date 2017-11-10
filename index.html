@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Perso 1 page template</title>
+    <meta charset="UTF-8">
+    <meta name="generator" content="Silex v2.2.7">
+    <!-- leave this for stats -->
+    <script type="text/javascript" src="//editor.silex.me/static/2.7/jquery.js" data-silex-static=""></script>
+    <script type="text/javascript" src="//editor.silex.me/static/2.7/jquery-ui.js" data-silex-static=""></script>
+
+    <script type="text/javascript" src="//editor.silex.me/static/2.7/pageable.js" data-silex-static=""></script>
+    <script type="text/javascript" src="//editor.silex.me/static/2.7/front-end.js" data-silex-static=""></script>
+    <!-- Normalize -->
+    <link href="//editor.silex.me/static/2.7/normalize.css" rel="stylesheet" data-silex-static="">
+    <!-- Silex style -->
+    <link href="//editor.silex.me/static/2.7/front-end.css" rel="stylesheet" data-silex-static="">
+
+    <style type="text/css" class="silex-style">
+        @import url('//fonts.googleapis.com/css?family=Josefin+Slab');
+        @import url('//fonts.googleapis.com/css?family=Oxygen:300');
+        .normal {
+            font-size: 12px;
+            font-family: 'Oxygen', sans-serif;
+        }
+        
+        .title {
+            font-size: 40px;
+            text-transform: uppercase;
+            font-weight: normal;
+            font-family: 'Josefin Slab', serif;
+        }
+        
+        .heading1 {
+            font-size: 16px;
+            line-height: 0px;
+            font-weight: normal;
+            font-family: 'Josefin Slab', serif;
+        }
+        
+        .heading2 {
+            font-size: 40px;
+            line-height: 0px;
+            font-weight: normal;
+        }
+        
+        .heading3 {
+            font-size: 16px;
+            line-height: 0px;
+            font-weight: normal;
+        }
+        /* anim widget for firefox */
+        
+        .paged-element-hidden.animated {
+            animation-name: none !important;
+        }
+        /* */
+        /* remove the space at the top of the site in mobile version */
+        
+        body {
+            padding: 0 !important;
+        }
+    </style>
+    <script type="text/javascript" class="silex-script"></script>
+    <meta name="publicationPath" content="/api/1.0/github/exec/put/silex-templates/wip/perso1">
+    <style class="silex-inline-styles" type="text/css">
+        .silex-id-1439572548860-10 {
+            cursor: auto;
+            left: 0px;
+            top: 0px;
+            background-color: rgb(255, 255, 255);
+        }
+        
+        .silex-id-1439572548754-9 {
+            top: 5px;
+            left: 163px;
+            width: 1100px;
+            box-sizing: content-box;
+            background-color: transparent;
+            min-height: 677px;
+        }
+        
+        @media only screen and (max-width: 480px),
+        only screen and (max-device-width: 480px) {
+            .silex-id-1439572548754-9 {
+                top: 0px;
+                left: 12px;
+                width: 455px;
+                min-height: 830px;
+            }
+        }
+        
+        .silex-id-1439572548653-8 {
+            width: 235px;
+            top: 80px;
+            left: 558px;
+            box-sizing: content-box;
+            min-height: 24px;
+        }
+        
+        .silex-id-1439572548552-7 {
+            width: 796px;
+            top: 100px;
+            left: 0px;
+            box-sizing: content-box;
+            background-image: url('party.jpg');
+            background-color: rgb(0, 0, 0);
+            background-size: cover;
+            background-position-x: 100%;
+            background-position-y: 100%;
+            background-repeat-x: no-repeat;
+            background-repeat-y: no-repeat;
+            min-height: 500px;
+        }
+        
+        @media only screen and (max-width: 480px),
+        only screen and (max-device-width: 480px) {
+            .silex-id-1439572548552-7 {
+                top: 7px;
+                left: 16px;
+                width: 423px;
+                min-height: 734px;
+                background-size: cover;
+                background-position: top left;
+            }
+        }
+        
+        .silex-id-1439572548141-3 {
+            width: 188px;
+            top: 0px;
+            left: 30px;
+            box-sizing: content-box;
+            border-top-left-radius: 0px;
+            border-top-right-radius: 0px;
+            border-bottom-right-radius: 8px;
+            border-bottom-left-radius: 8px;
+            background-color: rgb(255, 255, 255);
+            min-height: 25px;
+        }
+        
+        .silex-id-1439572548345-5 {
+            width: 236px;
+            top: 383px;
+            left: 32px;
+            box-sizing: content-box;
+            min-height: 47px;
+            background-color: rgba(0, 0, 0, 1);
+            text-align: center;
+        }
+        
+        .silex-id-1492778754580-1 {
+            width: 232px;
+            min-height: 68px;
+            background-color: rgba(0, 0, 0, 1);
+            top: 414px;
+            left: 33px;
+        }
+        
+        .silex-id-1439572548242-4 {
+            width: 356px;
+            top: 259px;
+            left: 442px;
+            box-sizing: content-box;
+            min-height: 238px;
+            background-color: rgba(0, 0, 0, 1);
+        }
+        
+        @media only screen and (max-width: 480px),
+        only screen and (max-device-width: 480px) {
+            .silex-id-1439572548242-4 {
+                top: 1184px;
+                left: 211px;
+                width: 240px;
+                min-height: 391px;
+            }
+        }
+        
+        .silex-id-1439572548039-2 {
+            width: 800px;
+            top: 600px;
+            left: 0px;
+            box-sizing: content-box;
+            min-height: 26px;
+        }
+        
+        .silex-id-1439572547830-0 {
+            width: 437px;
+            top: 56px;
+            left: 30px;
+            box-sizing: content-box;
+            min-height: 40px;
+        }
+    </style>
+
+
+
+
+
+
+    <script type="text/javascript" class="silex-json-styles">
+        [{"desktop":{"silex-id-1439572548860-10":{"cursor":"auto","left":"0px","top":"0px","background-color":"rgb(255, 255, 255)"},"silex-id-1439572548754-9":{"top":"5px","left":"163px","width":"1100px","box-sizing":"content-box","background-color":"transparent","min-height":"677px"},"silex-id-1439572548653-8":{"width":"235px","top":"80px","left":"558px","box-sizing":"content-box","min-height":"24px"},"silex-id-1439572548552-7":{"width":"796px","top":"100px","left":"0px","box-sizing":"content-box","background-image":"url('party.jpg')","background-color":"rgb(0, 0, 0)","background-size":"cover","background-position-x":"100%","background-position-y":"100%","background-repeat-x":"no-repeat","background-repeat-y":"no-repeat","min-height":"500px"},"silex-id-1439572548345-5":{"width":"236px","top":"383px","left":"32px","box-sizing":"content-box","min-height":"47px","background-color":"rgba(0,0,0,1)","text-align":"center"},"silex-id-1439572548242-4":{"width":"356px","top":"259px","left":"442px","box-sizing":"content-box","min-height":"238px","background-color":"rgba(0,0,0,1)"},"silex-id-1439572548141-3":{"width":"188px","top":"0px","left":"30px","box-sizing":"content-box","border-top-left-radius":"0px","border-top-right-radius":"0px","border-bottom-right-radius":"8px","border-bottom-left-radius":"8px","background-color":"rgb(255, 255, 255)","min-height":"25px"},"silex-id-1439572548039-2":{"width":"800px","top":"600px","left":"0px","box-sizing":"content-box","min-height":"26px"},"silex-id-1439572547830-0":{"width":"437px","top":"56px","left":"30px","box-sizing":"content-box","min-height":"40px"},"silex-id-1492778754580-1":{"width":"232px","min-height":"68px","background-color":"rgba(0,0,0,1)","top":"414px","left":"33px"}},"mobile":{"silex-id-1439572548552-7":{"top":"7px","left":"16px","width":"423px","min-height":"734px","background-size":"cover","background-position":"top left"},"silex-id-1439572548242-4":{"top":"1184px","left":"211px","width":"240px","min-height":"391px"},"silex-id-1439572548754-9":{"top":"0px","left":"12px","width":"455px","min-height":"830px"}},"componentData":{"silex-id-1492778754580-1":{"name":"share1","templateName":"share","networks":["LinkedIn","Facebook","Twitter","Google+","Email"],"style":"Flat Web Icon Set - Inverted","description":"Your site description","url":"//www.vbsays.com/","twitter":"@vbsay"}}}]
+    </script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2.2" data-silex-viewport="">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <style id="current-page-style">
+        .page-page-1 {
+            display: inherit;
+        }
+    </style>
+    <!-- Silex HEAD tag do not remove -->
+    <link href="./css/animate.min.css" rel="stylesheet">
+    <!-- End of Silex HEAD tag do not remove -->
+</head>
+
+<body data-silex-type="container" class="silex-id-1439572548860-10 enable-mobile silex-runtime" data-silex-id="silex-id-1439572548860-10">
+
+
+
+
+    <div class="background editable-style container-element prevent-draggable silex-id-1439572548754-9" data-silex-type="container" data-silex-id="silex-id-1439572548754-9">
+        <div data-silex-type="text" class="editable-style text-element page-page-1 paged-element silex-id-1439572548653-8 hide-on-mobile" data-silex-id="silex-id-1439572548653-8">
+            <div class="silex-element-content normal">
+                <div style="text-align: right;">
+                    <font size="2">just a quick order take site</font>
+                </div>
+            </div>
+        </div>
+        <div data-silex-type="container" class="editable-style container-element page-page-1 paged-element animated fadeInLeft silex-id-1439572548552-7" data-silex-id="silex-id-1439572548552-7">
+
+
+
+
+
+
+            <div data-silex-type="text" class="editable-style text-element animated fadeIn silex-id-1439572548141-3" data-silex-id="silex-id-1439572548141-3">
+                <div class="silex-element-content normal">
+                    <h1 class="heading1" style="text-align: center;">towards a new era...</h1>
+                </div>
+            </div>
+
+
+
+
+
+            <div data-silex-type="text" class="editable-style text-element silex-id-1439572548345-5 hide-on-mobile" data-silex-id="silex-id-1439572548345-5" style="">
+                <div class="silex-element-content normal">
+                    <h3 class="heading3">
+                        <font color="#ffffff">Follow Me Further</font>
+                    </h3>
+                    <div>
+                        <font color="#ffffff"><br></font>
+                    </div>
+                </div>
+            </div>
+            <div data-silex-type="html" class="editable-style silex-id-1492778754580-1 html-element silex-component silex-component-share" data-silex-id="silex-id-1492778754580-1" style="">
+                <div class="silex-element-content">
+                    <ul class="share-buttons" id="id_1510310902082_100">
+
+                        <li>
+                            <a href="https://www.facebook.com/sharer/sharer.php?u=http://www.vbsays.com/&amp;t=Your%20site%20title" title="Share on Facebook" target="_blank"><img alt="Share on Facebook" data-silex-static="" src="//editor.silex.me/static/2.7/simplesharingbuttons/flat_web_icon_set/inverted/Facebook.png"></a>
+                        </li>
+
+
+                        <li>
+                            <a href="https://twitter.com/intent/tweet?source=http://www.vbsays.com/&amp;text=Your%20site%20title:%20http://www.vbsays.com/&amp;via=%40vbsay" target="_blank" title="Share on Twitter"><img alt="Twitt" data-silex-static="" src="//editor.silex.me/static/2.7/simplesharingbuttons/flat_web_icon_set/inverted/Twitter.png"></a>
+                        </li>
+
+
+                        <li>
+                            <a href="https://plus.google.com/share?url=http://www.vbsays.com/" target="_blank" title="Share on Google+"><img alt="Share on Google+" data-silex-static="" src="//editor.silex.me/static/2.7/simplesharingbuttons/flat_web_icon_set/inverted/Google%2B.png"></a>
+                        </li>
+
+
+
+
+
+
+                        <li>
+                            <a href="http://www.linkedin.com/shareArticle?mini=true&amp;url=http://www.vbsays.com/&amp;title=Your%20site%20title&amp;summary=Your%20site%20description&amp;source=http://www.vbsays.com/%7B%20" target="_blank" title="Share on LinkedIn"><img alt="Share on LinkedIn" data-silex-static="" src="//editor.silex.me/static/2.7/simplesharingbuttons/flat_web_icon_set/inverted/LinkedIn.png"></a>
+                        </li>
+
+
+
+
+                        <li>
+                            <a href="mailto:?subject=Your%20site%20title&amp;body=Your%20site%20description:%20http://www.vbsays.com/" target="_blank" title="Send email"><img alt="Send by email" data-silex-static="" src="//editor.silex.me/static/2.7/simplesharingbuttons/flat_web_icon_set/inverted/Email.png"></a>
+                        </li>
+
+                    </ul>
+
+                    <style type="text/css">
+                        #id_1510310902082_100.share-buttons {
+                            list-style: none;
+                            padding: 0;
+                        }
+                        
+                        #id_1510310902082_100.share-buttons li {
+                            display: inline;
+                        }
+                        
+                        #id_1510310902082_100.share-buttons .sr-only {
+                            position: absolute;
+                            clip: rect(1px 1px 1px 1px);
+                            clip: rect(1px, 1px, 1px, 1px);
+                            padding: 0;
+                            border: 0;
+                            height: 1px;
+                            width: 1px;
+                            overflow: hidden;
+                        }
+                    </style>
+                </div>
+            </div>
+            <div data-silex-type="text" class="editable-style text-element silex-id-1439572548242-4" data-silex-id="silex-id-1439572548242-4" style="">
+                <div class="silex-element-content normal">
+                    <h2>
+                        <font color="#ffffff" class="heading2">Awesome Choice...<br></font><span style="font-size: 20px; font-weight: normal; line-height: 0px; color: rgb(255, 255, 255);">Looking forward to see you in Sharda Centre on Tuesday 14th November 2017 at 1pm</span></h2>
+                    <div>
+                        <font color="#ffffff" class="normal">
+                            <p class="normal">Feel free to connect with me on your Social Network. My Phone/WhatsApp number is +91 73519 77888 and email vickybiswas@gmail.com. My LinkedIn and Facebook are below.&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</p>
+                            <p class="normal">It will be great to have a recommendation on Linked in or being tagged on our old photoes.&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</p>
+                        </font>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div data-silex-type="image" class="editable-style image-element page-page-1 paged-element animated fadeInLeft silex-id-1439572548039-2" data-silex-id="silex-id-1439572548039-2"><img src="../../../../../../../libs/templates/silex-templates/perso1/assets/shadow.jpg" class="silex-element-content">
+        </div>
+        <div data-silex-type="text" class="editable-style text-element page-page-1 paged-element animated fadeInDown silex-id-1439572547830-0" data-silex-id="silex-id-1439572547830-0">
+            <div class="silex-element-content normal">
+                <header class="title">Vicky Biswas</header>
+            </div>
+        </div>
+
+
+    </div>
+
+
+
+
+
+
+
+    <div class="silex-pages">
+        <a id="page-page-1" data-silex-type="page" class="page-element page-link-active">Page 1</a></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
